@@ -4,7 +4,7 @@ export default function MovieList({movies}) {
     
     return (
             <section>
-                {movies.map(movie => {
+                {movies?.map(movie => {
                     return <MovieCard key={movie.imdbID} movie={movie} />
                 })}
             </section>
