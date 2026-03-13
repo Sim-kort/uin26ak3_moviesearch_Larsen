@@ -18,6 +18,7 @@ export default function Home() {
 
         console.log(data)
     }
+    //jeg har prøvd å få lagt til alle filmer. de funker, men vil nevne at de to første james bond forslagene er spill så de blir ikke hentet ut, vet ikke hvorfor men sånn ble det. pratet med foreleser om dette og hun sa at jeg skulle kommentere dette.
 
    useEffect(() => {
         getAllMovies()
@@ -34,7 +35,7 @@ export default function Home() {
             searchMovies()
         }
     }, [search])
-    //hør om koden fra linje 26-36 er relevant også be om forklaring
+    //hør om koden fra linje 26-36 er relevant også be om forklaring... oppdatering det var den.
         
 
     return (
